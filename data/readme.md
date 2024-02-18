@@ -1,0 +1,3 @@
+- info.csv: 곡 정보 파일
+- npy 파일: 각 노래 파일에서 추출된 mel 벡터
+- Split_Input, Split_hum의 경우 너무 크니 구글 드라이브 링크를 걸어두는걸로?
