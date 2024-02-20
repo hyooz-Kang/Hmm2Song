@@ -1,3 +1,5 @@
 - info.csv: 곡 정보 파일
 - npy 파일: 각 노래 파일에서 추출된 mel 벡터
-- Split_Input, Split_hum의 경우 너무 크니 구글 드라이브 링크를 걸어두는걸로?
+- Full_input: 원곡 mp3 파일에서 보이스 부분만을 최대한 추출하여 재가공한 파일
+- Split_input: Full_input을 10초 단위로 자른 파일(window_size: 2초)
+- Split_hum: Split_input에 필터를 적용하여 만든 허밍 음성
